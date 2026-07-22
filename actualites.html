@@ -1,1 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Actualités - GONTY SERVICES</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body { font-family: Arial; background: #f0f0f0; margin: 0; padding: 20px; }
+        header { background: #003366; color: white; padding: 15px; text-align: center; }
+        .retour { display: block; text-align: center; margin: 20px; }
+        .retour a { background: #ff0000; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; }
+        .grille { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; }
+        .carte { background: white; padding: 15px; border-radius: 10px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+        .carte img, .carte iframe { width: 100%; border-radius: 8px; }
+        h3 { color: #003366; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>📢 ACTUALITÉS GONTY SERVICES</h1>
+    </header>
 
+    <div class="retour">
+        <a href="index.html">← Retour Accueil</a>
+    </div>
+
+    <div class="grille">
+        
+        <!-- POUR AJOUTER UNE IMAGE : Mets l'image dans Drive, clique "Obtenir le lien" et remplace ICI -->
+        <div class="carte">
+            <h3>Nouvelle Recrue</h3>
+            <img src="https://drive.google.com/uc?export=view&id=1pyFvL7ayvZi5wR7ycwQXYLLvhV8Y__Nq" alt="Image">
+            <p>Bienvenue à notre nouveau agent de sécurité.</p>
+        </div>
+
+        <!-- POUR AJOUTER UNE VIDÉO : Mets la vidéo dans Drive, clique "Obtenir le lien" et remplace ICI -->
+        <div class="carte">
+            <h3>Formation du Mois</h3>
+            <iframe src="https://drive.google.com/file/d/1pyFvL7ayvZi5wR7ycwQXYLLvhV8Y__Nq/preview" width="100%" height="200"></iframe>
+            <p>Extrait de notre formation sécurité.</p>
+        </div>
+
+    </div>
+</body>
+</html>
