@@ -2,35 +2,67 @@
 <html lang="fr">
 <head>
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Galerie - GONTY SERVICE</title>
+<title>Galerie 20 Réalisations - GONTY SERVICE Abidjan</title>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800&display=swap" rel="stylesheet">
 <style>
 body{font-family:Montserrat,sans-serif;margin:0;background:#f4f6f9}
 nav{background:#0a1931;padding:15px 20px;display:flex;justify-content:space-between;align-items:center;position:sticky;top:0;z-index:100}
-nav a{color:white;text-decoration:none;margin-left:20px;font-weight:700}
-h1{text-align:center;padding:40px 20px 10px}
-.gallery{max-width:1200px;margin:auto;padding:20px;display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:18px}
-.gallery .item{background:white;border-radius:14px;overflow:hidden;box-shadow:0 5px 15px rgba(0,0,0,0.08)}
-.gallery img{width:100%;height:220px;object-fit:cover;display:block}
-.gallery p{padding:12px 15px;margin:0;font-weight:700;color:#0a1931;font-size:14px}
+nav a{color:white;text-decoration:none;margin-left:15px;font-weight:700;font-size:13px}
+.header{padding:50px 20px;text-align:center;background:white}
+.gallery{max-width:1250px;margin:auto;padding:20px;display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:18px}
+.item{background:white;border-radius:14px;overflow:hidden;box-shadow:0 5px 15px rgba(0,0,0,0.08);transition:0.3s}
+.item:hover{transform:translateY(-5px)}
+.item img{width:100%;height:190px;object-fit:cover}
+.item .info{padding:14px}
+.item .info b{color:#0a1931;font-size:13px}
+.item .info p{margin:4px 0 0;color:#666;font-size:12px}
 </style>
 </head>
 <body>
-<nav><div style="color:white;font-weight:800">GONTY SERVICE</div><div><a href="index.html">Accueil</a><a href="galerie.html" style="background:#00d084;color:#0a1931;padding:8px 18px;border-radius:20px">Galerie</a></div></nav>
+<nav><div style="color:white;font-weight:800">GONTY SERVICE</div><div><a href="index.html">Accueil</a><a href="index.html#services">Services</a><a href="galerie.html" style="background:#00d084;color:#0a1931;padding:8px 16px;border-radius:20px">Galerie (20)</a><a href="index.html#contact">Contact</a></div></nav>
 
-<h1>Nos Réalisations - GONTY SERVICE</h1>
-<p style="text-align:center;color:#666">Quelques installations réalisées par notre équipe à Abidjan et à l'intérieur</p>
-
-<div class="gallery">
-<div class="item"><img src="https://images.unsplash.com/photo-1557597774-9d273605dfa9?q=80&w=600"><p>Installation 4 Caméras - Boutique Adjamé</p></div>
-<div class="item"><img src="https://images.unsplash.com/photo-1589939705384-5185137a7f0f?q=80&w=600"><p>GPS Tracker - Engin Caterpillar - Yopougon</p></div>
-<div class="item"><img src="https://images.unsplash.com/photo-1593946143195-3b6fb9d4c8fb?q=80&w=600"><p>Villa Cocody - 8 Caméras + Vision Nocturne</p></div>
-<div class="item"><img src="https://images.unsplash.com/photo-1497366811353-26cc3a5c9fa0?q=80&w=600"><p>Entreprise Treichville - Système complet</p></div>
-<div class="item"><img src="https://images.unsplash.com/photo-1526379095098-d400fd0bf935?q=80&w=600"><p>DVR Hikvision - Installation Propre</p></div>
-<div class="item"><img src="https://images.unsplash.com/photo-1558002038-1055907df827?q=80&w=600"><p>Contrôle d'accès par Badge</p></div>
+<div class="header">
+<h1 style="margin:0;color:#0a1931">Nos 20 Réalisations Récentes</h1>
+<p style="color:#666">Toutes ces installations ont été faites par l'équipe GONTY SERVICE à Abidjan et intérieur</p>
+<p style="font-size:12px;color:#00a86b;font-weight:800">📍 Cocody | Yopougon | Marcory | Bassam | Bouaké</p>
 </div>
 
-<div style="text-align:center;padding:50px"><a href="https://wa.me/2250769879252" style="background:#25D366;color:white;padding:16px 30px;border-radius:30px;text-decoration:none;font-weight:800">Commander la même installation - WhatsApp</a></div>
+<div class="gallery">
+<!-- 1-5 CAMERAS MAISON -->
+<div class="item"><img src="https://images.unsplash.com/photo-1557597774-9d273605dfa9?q=80&w=500"><div class="info"><b>Villa Cocody - 8 Caméras 4K</b><p>Vision nocturne couleur + alerte téléphone</p></div></div>
+<div class="item"><img src="https://images.unsplash.com/photo-1558002038-1055907df827?q=80&w=500"><div class="info"><b>Cocody Riviera - 4 Caméras WiFi</b><p>Installation sans fil apparent</p></div></div>
+<div class="item"><img src="https://images.unsplash.com/photo-1593946143195-3b6fb9d4c8fb?q=80&w=500"><div class="info"><b>Marcory - Villa 6 Caméras</b><p>DVR 2To - stockage 30 jours</p></div></div>
+<div class="item"><img src="https://images.unsplash.com/photo-1497366811353-26cc3a5c9fa0?q=80&w=500"><div class="info"><b>Bingerville - Maison 4 Caméras</b><p>Accès famille sur 3 téléphones</p></div></div>
+<div class="item"><img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?q=80&w=500"><div class="info"><b>Angré - 2 Caméras Solaires</b><p>Sans électricité CIE, avec panneau</p></div></div>
+
+<!-- 6-10 BOUTIQUES / ENTREPRISES -->
+<div class="item"><img src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?q=80&w=500"><div class="info"><b>Supermarché Adjamé - 12 Caméras</b><p>Contrôle caisse et rayons</p></div></div>
+<div class="item"><img src="https://images.unsplash.com/photo-1578575437130-527eed3abbec?q=80&w=500"><div class="info"><b>Entrepôt Yopougon - 16 Caméras</b><p>Système pro avec onduleur 3h</p></div></div>
+<div class="item"><img src="https://images.unsplash.com/photo-1564069114556-4d22498a9e48?q=80&w=500"><div class="info"><b>Bureau Plateau - 4 Caméras</b><p>Installation propre avec goulottes</p></div></div>
+<div class="item"><img src="https://images.unsplash.com/photo-1526379095098-d400fd0bf935?q=80&w=500"><div class="info"><b>Pharmacie Treichville</b><p>DVR Hikvision + écran 32 pouces</p></div></div>
+<div class="item"><img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=500"><div class="info"><b>École Privée Cocody</b><p>8 caméras + contrôle portail</p></div></div>
+
+<!-- 11-15 GPS ENGINS -->
+<div class="item"><img src="https://images.unsplash.com/photo-1589939705384-5185137a7f0f?q=80&w=500"><div class="info"><b>GPS Engin Caterpillar</b><p>Chantier Bassam - coupure moteur</p></div></div>
+<div class="item"><img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?q=80&w=500"><div class="info"><b>GPS Tracteur JCB</b><p>Suivi heures travail + carburant</p></div></div>
+<div class="item"><img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=500"><div class="info"><b>Flotte 5 Camions</b><p>Société BTP Bouaké - gestion flotte</p></div></div>
+<div class="item"><img src="https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?q=80&w=500"><div class="info"><b>GPS Voiture Particulier</b><p>Installation cachée anti-vol</p></div></div>
+<div class="item"><img src="https://images.unsplash.com/photo-1530046339160-ce3e530c7d2f?q=80&w=500"><div class="info"><b>GPS Moto Livraison</b><p>Yango / Glovo - suivi temps réel</p></div></div>
+
+<!-- 16-20 ALARME / FINITIONS -->
+<div class="item"><img src="https://images.unsplash.com/photo-1563013544-824ae1b704d3?q=80&w=500"><div class="info"><b>Interphone Vidéo Connecté</b><p>Ouverture portail depuis téléphone</p></div></div>
+<div class="item"><img src="https://images.unsplash.com/photo-1558002038-1055907df827?q=80&w=500"><div class="info"><b>Contrôle d'Accès Empreinte</b><p>Bureau sécurisé - 50 employés</p></div></div>
+<div class="item"><img src="https://images.unsplash.com/photo-1581092918056-0c4c3b09bb97?q=80&w=500"><div class="info"><b>Armoire Électrique Propre</b><p>Câblage GONTY - pas de fils qui traînent</p></div></div>
+<div class="item"><img src="https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=500"><div class="info"><b>Formation Client</b><p>On forme le client sur l'appli mobile</p></div></div>
+<div class="item"><img src="https://images.unsplash.com/photo-1526379095098-d400fd0bf935?q=80&w=500"><div class="info"><b>SAV & Maintenance</b><p>Vérification système chaque 6 mois</p></div></div>
+</div>
+
+<div style="text-align:center;padding:60px 20px;background:white;margin-top:30px">
+<h2 style="color:#0a1931">Vous voulez la même installation ?</h2>
+<p style="color:#666">Devis gratuit en 10 minutes sur WhatsApp</p>
+<a href="https://wa.me/2250769879252" style="background:#25D366;color:white;padding:16px 35px;border-radius:30px;text-decoration:none;font-weight:800;display:inline-block;margin-top:10px">📲 CONTACTER GONTY - 07 69 87 92 52</a>
+<br><br><a href="index.html" style="color:#0a1931;font-weight:800">← Retour à l'accueil</a>
+</div>
 
 </body>
 </html>
